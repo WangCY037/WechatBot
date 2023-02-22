@@ -17,7 +17,7 @@
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/BHJD6L?referralCode=FaJtD_)
 
-如果你没有自己的服务器或者想体验快速部署，可使用 Railway 进行部署，参见 [Railway 部署](#railway-部署)。
+如果你没有自己的服务器或者想体验快速部署，可使用 Railway 进行部署，参见 [Railway 部署](#使用-railway-部署)。
 
 ### 2022.12.27 更新
 目前, 使用 Docker 或 Railway 部署, 会出现意料之外的问题, 我们正在努力解决。
@@ -164,6 +164,8 @@ npm run dev
 - **CHAT_GPT_RETRY_TIMES** ：当 OpenAI API 返回 429 或 503 时重试的次数。
 
 - **CHAT_PRIVATE_TRIGGER_KEYWORD** ：如果您希望只有一些关键字才能在私人聊天中触发 ChatGPT，则可以设置它。
+
+- **CHAT_TRIGGER_RULE** ：如果您希望正则校验通过的聊天信息才能触发 ChatGPT，则可以设置它。
 
 点击“部署”按钮，您的服务将立即开始部署。以下界面出现表示部署已经开始：
 
